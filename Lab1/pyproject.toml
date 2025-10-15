@@ -1,0 +1,18 @@
+[project]
+name = "lab1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nbformat>=5.10.4",
+    "numpy>=2.3.3",
+    "openpyxl>=3.1.0",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.0.1",
+]
