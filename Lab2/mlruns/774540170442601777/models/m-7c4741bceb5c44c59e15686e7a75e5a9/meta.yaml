@@ -1,0 +1,10 @@
+artifact_location: file:///Users/othocs/Desktop/AIDAMS/Semester%201/Research%20and%20emerging%20topics/Labs/Research_And_Emerging_topics_Labs/Lab2/mlruns/774540170442601777/models/m-7c4741bceb5c44c59e15686e7a75e5a9/artifacts
+creation_timestamp: 1761516140990
+experiment_id: '774540170442601777'
+last_updated_timestamp: 1761516142800
+model_id: m-7c4741bceb5c44c59e15686e7a75e5a9
+model_type: null
+name: random_forest_tuned_model
+source_run_id: 6ffc34652f244087ba880c90ca563ac7
+status: 2
+status_message: null

@@ -1,0 +1,30 @@
+
+
+           STEEL PLANT PRODUCTION PREDICTION MODEL            
+
+ Model Type:      Random Forest Regressor                    
+ Version:         1.0 (Optuna-tuned)                          
+ Training Date:   2025-10-27 00:08:13                         
+ Optimization:    Optuna TPE (100 trials)                    
+
+ PERFORMANCE                                                  
+
+ Test RMSE:         3,915 ttpa                               
+ Test R²:           0.432                                    
+ Test MAE:            708 ttpa                               
+ Improvement:       24.7% vs baseline                   
+
+ HYPERPARAMETERS                                              
+
+ n_estimators:    250                                         
+ max_depth:       15                                          
+ max_features:    0.38115531797785407                         
+ min_samples_leaf:1                                           
+
+ USAGE                                                        
+
+ Load:   model = joblib.load('rf_optuna_best.joblib')    
+ Predict: y_pred = model.predict(X_scaled)                   
+ Input:   26 features (StandardScaler applied)               
+ Output:  Production prediction (ttpa)                       
+

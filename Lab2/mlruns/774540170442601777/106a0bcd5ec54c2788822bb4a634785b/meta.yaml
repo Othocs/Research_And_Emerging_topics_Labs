@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/othocs/Desktop/AIDAMS/Semester%201/Research%20and%20emerging%20topics/Labs/Research_And_Emerging_topics_Labs/Lab2/mlruns/774540170442601777/106a0bcd5ec54c2788822bb4a634785b/artifacts
+end_time: 1761516496357
+entry_point_name: ''
+experiment_id: '774540170442601777'
+lifecycle_stage: active
+run_id: 106a0bcd5ec54c2788822bb4a634785b
+run_name: Random_Forest_Tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761516494444
+status: 3
+tags: []
+user_id: othocs

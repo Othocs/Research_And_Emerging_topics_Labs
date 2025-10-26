@@ -1,0 +1,22 @@
+artifact_path: file:///Users/othocs/Desktop/AIDAMS/Semester%201/Research%20and%20emerging%20topics/Labs/Research_And_Emerging_topics_Labs/Lab2/mlruns/774540170442601777/models/m-eb08b0b1ab0644399f04bce4e856c6b5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-eb08b0b1ab0644399f04bce4e856c6b5
+model_size_bytes: 5495997
+model_uuid: m-eb08b0b1ab0644399f04bce4e856c6b5
+prompts: null
+run_id: 625c80f14b6a4847b49d666d18cc38ce
+utc_time_created: '2025-10-26 23:05:55.042724'

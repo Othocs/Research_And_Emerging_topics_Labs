@@ -1,0 +1,10 @@
+artifact_location: file:///Users/othocs/Desktop/AIDAMS/Semester%201/Research%20and%20emerging%20topics/Labs/Research_And_Emerging_topics_Labs/Lab2/mlruns/774540170442601777/models/m-4f0cbaeef0ea41b6a1ece58258482bba/artifacts
+creation_timestamp: 1761516492047
+experiment_id: '774540170442601777'
+last_updated_timestamp: 1761516494436
+model_id: m-4f0cbaeef0ea41b6a1ece58258482bba
+model_type: null
+name: linear_regression_model
+source_run_id: 8fdd56fe56d1414fb9917b6b4e69a131
+status: 2
+status_message: null

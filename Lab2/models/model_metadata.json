@@ -1,0 +1,87 @@
+{
+  "model_info": {
+    "model_type": "RandomForestRegressor",
+    "model_file": "rf_optuna_best.joblib",
+    "training_date": "2025-10-27 00:08:13",
+    "sklearn_version": "1.7.2",
+    "python_version": "3.x"
+  },
+  "hyperparameters": {
+    "n_estimators": 250,
+    "max_depth": 15,
+    "max_features": 0.38115531797785407,
+    "min_samples_split": 3,
+    "min_samples_leaf": 1,
+    "bootstrap": true,
+    "random_state": 42
+  },
+  "performance": {
+    "test_set": {
+      "rmse": 3915.347121116347,
+      "mae": 708.4202115977938,
+      "r2": 0.4320897396182798,
+      "n_samples": 257
+    },
+    "cross_validation": {
+      "cv_rmse_mean": 2271.2723685167703,
+      "n_folds": 5
+    },
+    "baseline_comparison": {
+      "baseline_rmse": 5200.0,
+      "improvement_pct": 24.70486305545487
+    }
+  },
+  "features": {
+    "feature_names": [
+      "Nominal crude steel capacity (ttpa)",
+      "Workforce size",
+      "Age_in_year",
+      "Year",
+      "capacity_per_worker",
+      "equipment_diversity_score",
+      "Sinter plant capacity (ttpa)",
+      "Coking plant capacity (ttpa)",
+      "has_EAF",
+      "has_BOF",
+      "has_BF",
+      "has_DRI",
+      "has_iron_making",
+      "Region_Asia Pacific",
+      "Region_Central & South America",
+      "Region_Eurasia",
+      "Region_Europe",
+      "Region_Middle East",
+      "Region_North America",
+      "tech_type_EAF-based",
+      "tech_type_Mixed",
+      "tech_type_Other/Unknown",
+      "plant_maturity_Mature",
+      "plant_maturity_New",
+      "plant_maturity_Unknown",
+      "plant_maturity_Very Old"
+    ],
+    "n_features": 26,
+    "numeric_features": 8,
+    "binary_features": 5,
+    "categorical_features": 13
+  },
+  "training_data": {
+    "n_samples": 1025,
+    "dataset": "Global Iron and Steel Tracker (2019-2023)",
+    "target_variable": "Crude steel production (ttpa)",
+    "feature_scaling": "StandardScaler",
+    "train_test_split": 0.8
+  },
+  "optimization": {
+    "method": "Optuna TPE",
+    "n_trials": 100,
+    "best_trial_number": 74
+  },
+  "usage": {
+    "loading": "model = joblib.load('models/rf_optuna_best.joblib')",
+    "prediction": "predictions = model.predict(X_scaled)",
+    "input_shape": "(26,)",
+    "output_shape": "(1,)",
+    "preprocessing_required": "StandardScaler must be applied to input features"
+  }
+}

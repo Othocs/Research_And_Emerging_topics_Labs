@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/othocs/Desktop/AIDAMS/Semester%201/Research%20and%20emerging%20topics/Labs/Research_And_Emerging_topics_Labs/Lab2/mlruns/774540170442601777/8fdd56fe56d1414fb9917b6b4e69a131/artifacts
+end_time: 1761516494441
+entry_point_name: ''
+experiment_id: '774540170442601777'
+lifecycle_stage: active
+run_id: 8fdd56fe56d1414fb9917b6b4e69a131
+run_name: Linear_Regression_Baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761516492025
+status: 3
+tags: []
+user_id: othocs
